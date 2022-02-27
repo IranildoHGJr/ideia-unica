@@ -3,7 +3,7 @@ import { useState } from 'react';
 function Home() {
     return (
         <div>
-            <div>Calculadora De Soma E Subtração De 1</div>
+            <div>Calculadora De Soma E Subtração De 2</div>
             <Contador />
         </div>
     )
@@ -13,7 +13,7 @@ function Contador() {
     const [contador, setContador] = useState(1);
 
     function adicionarContador() {
-        setContador(contador + 1);
+        setContador(contador + 2);
     }
 
     function zerarContador() {
@@ -21,7 +21,7 @@ function Contador() {
     }
 
     function reduzirContador() {
-        setContador(contador - 1);
+        setContador(contador - 2);
     }
 
     return (
